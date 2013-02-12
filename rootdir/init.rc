@@ -293,6 +293,8 @@ on boot
     chown system system /sys/devices/system/cpu/cpufreq/interactive/boostpulse
     chown system system /sys/devices/system/cpu/cpufreq/interactive/input_boost
     chmod 0660 /sys/devices/system/cpu/cpufreq/interactive/input_boost
+    chown system system /sys/devices/system/cpu/cpufreq/interactive/boostpulse_duration
+    chmod 0660 /sys/devices/system/cpu/cpufreq/interactive/boostpulse_duration
 
     # Allow system to modify notifications
     chown system system /sys/class/timed_output/vibrator/enable
